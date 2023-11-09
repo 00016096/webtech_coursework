@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    border-bottom: solid 1px gray;
+    padding-bottom: 10px;
+}
+
+
+.logo-header-jpg {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.navbar {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    min-width: 350px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar li {
+    list-style: none;
+    color: black;
+    font-family: "Adobe Gothic Std", "Berlin Sans FB", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a:hover {
+    font-size: larger;
+}
+
+.user-panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+.basket-icon {
+    height: 100px;
+    width: 100px;
+}
+
+nav {
+    margin-right: auto;
+}
+
+.basket {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 260px;
+}
+
+
+.purchases {
+    min-width: 60px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 30px;
+    margin: 0;
+    background-color: rgb(238, 166, 71);
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.btn-order {
+    height: 40px;
+    padding: 0 8px;
+    margin-left: 14px;
+    border-radius: 20px;
+    background-color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-order:hover {
+    cursor: pointer;
+    background-color: rgb(255, 197, 155);
+}
+
+ .acc-icon {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: solid black 2px;
+    margin-left: 12px;
+} 
+
+.acc-icon:hover {
+    cursor: pointer;
+}
+
